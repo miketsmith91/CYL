@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 include "DatabaseConnect.php";
-include "Event.php";
+//include "Event.php";
 function insertEvent($event){
     try {
         $connection = getConnection();

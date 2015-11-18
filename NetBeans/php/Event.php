@@ -1,10 +1,4 @@
 <?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 class Event {
     public $id = "";
     public $event_name = "";
@@ -24,7 +18,8 @@ class Event {
     //public $description = "";
     
     public function validate(){
-        if ($this->event_name !="" and $this->event_type !="" and $this->start_date !=""){
+        if ($this->event_name !="" and $this->event_type !="" and $this->start_date !="" and $this->start_time !=""
+                and $this->end_date !="" and $this->organizer !=""){
             return true;
         } else {
             return false;

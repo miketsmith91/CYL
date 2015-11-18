@@ -14,7 +14,7 @@ $event -> start_date = $_POST["start_date"];
 $event -> start_time = $_POST["start_time"];
 $event -> end_date = $_POST["end_date"];
 $event -> end_time = $_POST["end_time"];
-//$event -> organizer = $_POST["organizer"];
+$event -> organizer = $_POST["organizer"];
 //$event -> location = $_POST["location"];
 //$event -> address = $_POST["address"];
 //$event -> city = $_POST["city"];
@@ -34,7 +34,7 @@ if($event->validate()){
 insertEvent($event->event_name,$event->event_type,$event->start_date,
         $event->start_time,$event->end_date,$event->end_time);
 retrieveEventById(1);
-updateEvent(1,"fuck","fuck","fuck","fuck","fuck","fuck");
+updateEvent(1,"thing","thing","thing","thing","thing","thing");
 deleteEvent(1);
 //deleteEvent(1);
 //echo("New Event: ".$event_name);

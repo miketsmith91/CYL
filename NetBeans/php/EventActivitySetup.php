@@ -38,17 +38,17 @@ and open the template in the editor.
                     <option value="individual">Individual</option>
                 </select> <br/>
                 Start Date: <input type="date" name="start_date" required>
-                Start Time: <input type="time" name="start_time"> <br/>
-                End Date: <input type="date" name="end_date">
-                End Time: <input type="time" name="end_time"> <br/>
-                Organizer: <input type="text" name="organizer"> <br/>
-                Location: <input type="text" name="location"> <br/>
-                Address: <input type="text" name="address"> <br/>
-                City: <input type="text" name="city"> <br/>
-                State: <input type="text" name="state"> <br/>
-                Zip Code: <input type="text" name="zip_code"> <br/>
-                Partner Organization: <input type="text" name="partner_organization"> <br/>
-                CYL Volunteers Needed: <input type="text" name="cyl_volunteers_needed"> <br/>
+                Start Time: <input type="time" name="start_time" required> <br/>
+                End Date: <input type="date" name="end_date" required>
+                End Time: <input type="time" name="end_time" required> <br/>
+                Organizer: <input type="text" name="organizer" required> <br/>
+                Location: <input type="text" name="location" required> <br/>
+                Address: <input type="text" name="address" required> <br/>
+                City: <input type="text" name="city" required> <br/>
+                State: <input type="text" name="state" required> <br/>
+                Zip Code: <input type="text" name="zip_code" required> <br/>
+                Partner Organization: <input type="text" name="partner_organization" required> <br/>
+                CYL Volunteers Needed: <input type="number" name="cyl_volunteers_needed"  min="1" required> <br/>
                 Description: <br> (500 characters) <textarea rows="3" cols="50" name="description"></textarea>
                 <input type="submit" value="Submit">
             </form>
